@@ -11,7 +11,7 @@ def print_aanbieding():
    aanbieding = prijzen["aardbei"] * 0.8
 
    # reclametekst met formatted string met de formule aanbieding
-   reclame_tekst =f"Vandaag in de aanbieding: aardbei-ijs, 1 liter - slechts € {aanbieding}"
+   reclame_tekst = f"Vandaag in de aanbieding: aardbei-ijs, 1 liter - slechts € {aanbieding}"
 
    # reclametekst prijs aangepast tot 2 decimalen achter de komma
    reclame_tekst2 = reclame_tekst [:63]
